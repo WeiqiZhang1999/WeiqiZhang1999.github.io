@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Engineer Portfolio - Weiqi Zhang</title>
+    <meta
+      name="description"
+      content="AI Engineer and Ph.D. student focusing on medical image analysis, image-to-image translation, and self-supervised learning."
+    />
+    <meta
+      name="keywords"
+      content="AI Engineer, Machine Learning, LLM, MLOps, Portfolio, Software Engineer"
+    />
+    <meta property="og:title" content="AI Engineer Portfolio - Weiqi Zhang" />
+    <meta
+      property="og:description"
+      content="AI Engineer specialized in building production-ready LLM and ML systems."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://weiqizhang1999.github.io" />
+    <meta property="og:image" content="https://weiqizhang1999.github.io/assets/og-image.png" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-theme="dark">
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <a href="#hero" class="brand-link">Weiqi Zhang</a>
+          <span class="brand-tagline">AI Engineer</span>
+        </div>
+        <nav class="nav">
+          <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" aria-label="Toggle theme">
+          <span class="theme-icon">◑</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="section hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <p class="hero-kicker">AI Engineer · Medical Imaging · Self-Supervised Learning</p>
+            <h1>Hi, I'm Weiqi Zhang.</h1>
+            <p class="hero-subtitle">
+              I'm an AI engineer and Ph.D. student working on medical image analysis, image-to-image
+              translation, and self-supervised learning, with experience deploying real-world medical IT systems.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View My Projects</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+          <div class="hero-photo">
+            <div class="avatar-placeholder" aria-label="Profile photo placeholder"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About</h2>
+          <p>
+            I'm a Ph.D. student in the Graduate School of Informatics at Chiba University, focusing on medical image
+            analysis, image-to-image translation, and self-supervised representation learning.
+          </p>
+          <p>
+            Previously, I obtained my M.Sc. in Information Science from Nara Institute of Science and Technology
+            (NAIST), where I worked on estimating bone mineral density from X-ray images. I also have industrial
+            experience as an IT Solution Support Engineer at Mindray, deploying large-scale medical IT systems in
+            hospitals.
+          </p>
+          <p>
+            My broader interests include image generation, medical image analysis, dataset distillation, and building
+            reliable AI workflows that bridge research ideas with production environments.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="skills-grid">
+            <div class="card">
+              <h3>AI &amp; ML</h3>
+              <ul>
+                <li>Image-to-image translation, medical image analysis</li>
+                <li>Dataset distillation, self-supervised learning</li>
+                <li>PyTorch, MMPretrain, MMSegmentation</li>
+                <li>Experiment design, model evaluation &amp; visualization</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Backend &amp; Infra</h3>
+              <ul>
+                <li>Python (advanced), C/C++, Go</li>
+                <li>Shell scripting, SQL, Git</li>
+                <li>RESTful APIs and small services in Python</li>
+                <li>Linux-based development and automation</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Data &amp; MLOps</h3>
+              <ul>
+                <li>Experiment tracking and result analysis</li>
+                <li>Dataset preparation and curation</li>
+                <li>Training pipelines for 2D/3D medical images</li>
+                <li>Tools: 3D Slicer and related tooling</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Communication &amp; Languages</h3>
+              <ul>
+                <li>Technical writing (papers, reports, LaTeX)</li>
+                <li>English: TOEIC 815 (2024), TOEFL 85 (2021)</li>
+                <li>Japanese: JLPT N2 (2021)</li>
+                <li>Chinese: Native proficiency</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Projects</h2>
+          <p class="section-intro">
+            A selection of research and engineering projects in medical imaging and self-supervised learning.
+          </p>
+          <div class="projects-grid">
+            <article class="card project-card">
+              <h3>Bone Mineral Density Estimation from X-Rays</h3>
+              <p>
+                A deep learning pipeline for estimating bone mineral density from lumbar X-ray images by generating
+                Digitally Reconstructed Radiographs (DRRs) and learning cross-modality mappings.
+              </p>
+              <p>
+                Designed a Pix2PixHD-based architecture with backbone and loss function modifications, trained on
+                synthetic X-rays and evaluated on real clinical data.
+              </p>
+              <ul class="tags">
+                <li>Medical Imaging</li>
+                <li>Pix2PixHD</li>
+                <li>Image Translation</li>
+                <li>PyTorch</li>
+              </ul>
+              <div class="project-links">
+                <span>Research project at NAIST</span>
+              </div>
+            </article>
+
+            <article class="card project-card">
+              <h3>Self-Supervised Pretraining for Breast Pathology</h3>
+              <p>
+                Self-supervised pretraining experiments on histopathology images using MMPretrain to improve downstream
+                segmentation and scoring tasks in breast pathology.
+              </p>
+              <p>
+                Developed a PD-L1 CPS scoring pipeline that combines keypoint detection with traditional image
+                processing to improve diagnostic consistency and reduce manual workload.
+              </p>
+              <ul class="tags">
+                <li>Self-Supervised</li>
+                <li>Histopathology</li>
+                <li>MMPretrain</li>
+                <li>Medical AI</li>
+              </ul>
+              <div class="project-links">
+                <span>Internship at West China Hospital</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" class="section section-alt">
+        <div class="container">
+          <h2>Publications</h2>
+          <div class="publications-list">
+            <article class="card publication-card">
+              <h3>Extrapolation of partial X-ray image for prediction of whole body musculoskeletal structure</h3>
+              <p class="pub-authors">
+                <strong>Weiqi Zhang</strong>, Yi Gu, Yoshito Otake, Soufi Mazen, Keisuke Uemura, Masaki Takao,
+                Toshiaki Akashi, Kensaku Mori, Kento Aida, Nobuhiko Sugano, Yoshinobu Sato
+              </p>
+              <p class="pub-venue">
+                IEICE Technical Report (IEICE Tech. Rep.), MI2022-67, vol. 122, no. 265, pp. 24–28, Nov. 2022.
+              </p>
+              <p class="pub-links">
+                <a href="https://ken.ieice.org/ken/paper/20221118wCOT/" target="_blank" rel="noopener noreferrer">
+                  View paper page
+                </a>
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section section-alt">
+        <div class="container">
+          <h2>Experience</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="timeline-date">Mar 2026 – Present</span>
+              <h3>Ph.D. in Informatics · Graduate School of Informatics, Chiba University</h3>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-date">Apr 2024 – Nov 2025</span>
+              <h3>Technical Support Engineer – Medical IT Systems · Mindray Chengdu Branch</h3>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-date">Apr 2022 – Apr 2024</span>
+              <h3>M.Sc. in Information Science · Graduate School of Information Science, NAIST</h3>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-date">May 2023 – Aug 2023</span>
+              <h3>Deep Learning Intern · Breast Pathology AI Lab, West China Hospital, Sichuan University</h3>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-date">Sep 2017 – Jul 2021</span>
+              <h3>B.Eng. in Mechatronic Engineering · School of Mechanical Engineering, Hefei University of Technology</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>
+            If you're interested in working together on AI for healthcare, research collaborations, or longer-term
+            projects, feel free to reach out.
+          </p>
+          <ul class="contact-list">
+            <li>Email: <a href="mailto:weiqizhang031027@gmail.com">weiqizhang031027@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/WeiqiZhang1999" target="_blank" rel="noopener noreferrer">@WeiqiZhang1999</a></li>
+            <li>LinkedIn: <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></li>
+            <li>Twitter/X: <a href="#" target="_blank" rel="noopener noreferrer">@your-handle</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Weiqi Zhang. All rights reserved.</p>
+        <p class="footer-note">Built with HTML, CSS, and a bit of JavaScript.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
